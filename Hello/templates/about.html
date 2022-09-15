@@ -1,5 +1,183 @@
-{% extends 'base.html'%}
-{% block title %}About {%endblock title %}
-{%block body%}
-this is a about block!
-{% endblock body%}
+{% extends 'base.html' %}
+
+{% block title %}About{% endblock title %}
+
+{% block body %} 
+<div class="container py-5">
+    <header class="text-center">
+      <h1 class="display-4">About Us</h1>
+      <p class="font-italic mb-0">Drishti's Icecream Parlour</p>
+    </header>
+  
+    <div class="row">
+      <div class="col-lg-11 mx-auto">
+       
+        <div class="row py-5">
+          <div class="col-lg-4">
+            <figure class="rounded p-3 bg-white shadow-sm">
+              <img src="https://i.postimg.cc/CxckQJW1/6.png" alt="" class="w-100 card-img-top">
+              <figcaption class="p-4 card-img-bottom">
+                <h2 class="h5 font-weight-bold mb-2 font-italic">Our Origin</h2>
+                <p class="mb-0 text-small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4">
+            <figure class="rounded p-3 bg-white shadow-sm">
+              <img src="https://i.postimg.cc/BbvGMSDt/6.png" alt="" class="w-100 card-img-top">
+              <figcaption class="p-4 card-img-bottom">
+                <h2 class="h5 font-weight-bold mb-2 font-italic">Our Team</h2>
+                <p class="mb-0 text-small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4">
+            <figure class="rounded p-3 bg-white shadow-sm">
+              <img src="https://i.postimg.cc/W3bKP94H/6.png" alt="" class="w-100 card-img-top">
+              <figcaption class="p-4 card-img-bottom">
+                <h2 class="h5 font-weight-bold mb-2 font-italic">Our Staff</h2>
+                <p class="mb-0 text-small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+  
+  
+        <div class="separator my-3"></div>
+  
+  
+        <div class="row my-5">
+          <div class="col-lg-4">
+            <!-- item -->
+            <figure class="rounded caption-1">
+              <img src="https://i.postimg.cc/LsMkfnKk/5.jpg" alt="" class="w-100 card-img-top border border-white border-md">
+              <figcaption class="px-5 py-4 text-right text-light">
+                <h2 class="h5 font-weight-bold mb-0">Image caption</h2>
+                <p class="text-small">By Jason Doe</p>
+              </figcaption>
+            </figure>
+          </div>
+  
+          <div class="col-lg-4">
+            <!-- item -->
+            <figure class="rounded caption-1">
+              <img src="https://i.postimg.cc/P5NyZ9K6/6.jpg" alt="" class="w-100 card-img-top border border-white border-md">
+              <figcaption class="px-5 py-4 text-right text-light">
+                <h2 class="h5 font-weight-bold mb-0">Image caption</h2>
+                <p class="text-small">By Jason Doe</p>
+              </figcaption>
+            </figure>
+          </div>
+  
+          <div class="col-lg-4">
+            <!-- item -->
+            <figure class="rounded caption-1">
+              <img src="https://i.postimg.cc/SRDLYf9F/7.jpg" alt="" class="w-100 card-img-top border border-white border-md">
+              <figcaption class="px-5 py-4 text-right text-light">
+                <h2 class="h5 font-weight-bold mb-0">Image caption</h2>
+                <p class="text-small">By Jason Doe</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="separator my-2"></div>
+  
+  
+  
+  
+        <div class="py-5">
+          <h2 class="h4 font-italic mb-4">How We Found This?</h2>
+          <div class="row">
+            <div class="col-lg-5">
+              <img src="https://i.postimg.cc/Qxrz8xV7/4.jpg" alt="" class="w-100 mb-4 border border-md border-white shadow-sm">
+            </div>
+            <div class="col-lg-7">
+              <p class="font-italic text-muted"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio ipsum quaerat, itaque sint odit id beatae, vero aliquam numquam placeat officiis fugiat, consequuntur est ut fugit amet illum obcaecati sed.</p>
+              <p class="font-italic text-muted"> div Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur iure dolore dolorum eum ex, expedita voluptate est adipisci repudiandae. Minus tenetur ut veritatis non hic beatae velit? Eius, totam, officia?</p>
+              <p class="font-italic text-muted">Enim numquam autem, suscipit repellat vero, voluptas adipisci provident ad quidem dolorum minus, architecto. Nostrum deleniti nesciunt consequatur tempora repudiandae quos quas, animi perspiciatis nam consectetur earum adipisci, repellendus laudantium.</p>
+            </div>
+          </div>
+          <p class="font-italic text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+        </div>
+  
+  
+        <div class="separator my-2"></div>
+  
+  
+      
+        <div class="row py-5">
+  
+          <div class="col-lg-4">
+            <figure class="caption-2 mb-0 shadow-sm border border-white border-md">
+              <img src="https://i.postimg.cc/pTkkKvN6/14.jpg" alt="" class="w-100">
+              <figcaption class="p-4 bg-white">
+                <h2 class="h5 font-weight-bold mb-2 font-italic">Image Caption</h2>
+                <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor sit amet, consect adipisicing elit.</p>
+              </figcaption>
+            </figure>
+          </div>
+  
+          <div class="col-lg-4">
+            <figure class="caption-2 mb-0 shadow-sm border border-white border-md">
+              <img src="https://i.postimg.cc/sgRHWsv3/16.jpg" alt="" class="w-100">
+              <figcaption class="p-4 bg-white">
+                <h2 class="h5 font-weight-bold mb-2 font-italic">Image Caption</h2>
+                <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor sit amet, consect adipisicing elit.</p>
+              </figcaption>
+            </figure>
+          </div>
+  
+          <div class="col-lg-4">
+            <figure class="caption-2 mb-0 shadow-sm border border-white border-md">
+              <img src="https://i.postimg.cc/TwhtxPHJ/18.jpg" alt="" class="w-100">
+              <figcaption class="p-4 bg-white">
+                <h2 class="h5 font-weight-bold mb-2 font-italic">Image Caption</h2>
+                <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor sit amet, consect adipisicing elit.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="separator my-2"></div>
+  
+        <!-- THIRD EXAMPLE ===================================-->
+        <div class="row py-5">
+          <div class="col-lg-4">
+            <!-- Item -->
+            <figure class="caption-3 mb-0 shadow-sm p-3 bg-white">
+              <img src="https://i.postimg.cc/CxckQJW1/6.png" alt="" class="w-100">
+              <figcaption class="px-5 py-3 bg-white shadow-sm">
+                <h2 class="h5 mb-1 font-weight-bold font-italic">Image Caption</h2>
+                <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p>
+              </figcaption>
+            </figure>
+  
+          </div>
+  
+          <div class="col-lg-4">
+            <!-- Item -->
+            <figure class="caption-3 mb-0 shadow-sm p-3 bg-white">
+              <img src="https://i.postimg.cc/BbvGMSDt/6.png" alt="" class="w-100">
+              <figcaption class="px-5 py-3 bg-white shadow-sm">
+                <h2 class="h5 mb-1 font-weight-bold font-italic">Image Caption</h2>
+                <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p>
+              </figcaption>
+            </figure>
+  
+          </div>
+          <div class="col-lg-4">
+            <!-- Item -->
+            <figure class="caption-3 mb-0 shadow-sm p-3 bg-white">
+              <img src="https://i.postimg.cc/W3bKP94H/6.png" alt="" class="w-100">
+              <figcaption class="px-5 py-3 bg-white shadow-sm">
+                <h2 class="h5 mb-1 font-weight-bold font-italic">Image Caption</h2>
+                <p class="mb-0 text-small font-italic text-muted">Lorem ipsum dolor.</p>
+              </figcaption>
+            </figure>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+{% endblock body %}
